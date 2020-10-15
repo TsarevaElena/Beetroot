@@ -1,0 +1,53 @@
+body{
+    margin-left: 250px;
+
+}
+h1 {
+    color: white;
+    background: red;
+    text-align: center;
+}
+
+main{ width: 1000px;
+    background: pink;
+}
+
+img{border-style: dashed;
+    border-color: red;
+    border-weight: bold;
+    display: block;
+}
+
+
+
+p { font-size: 20px;
+    color: blue;
+    font-weight: bold;
+    background: aquamarine;
+    text-decoration: underline;
+    font-style: italic;
+}
+span {font-size: 18px;
+    color: red;
+    background: orange ;
+}
+td{
+    color: purple;
+    background: yellow;
+}
+ul{
+    color: brown;
+    background: antiquewhite;
+}
+ol{
+    color: white;
+    background: red;
+}
+a{
+    font-style: italic;
+    font-weight: bold;
+}
+footer{
+    width: 1000px;
+    background: pink;
+}
