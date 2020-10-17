@@ -1,0 +1,81 @@
+body {
+    background: #3B3F45;
+    font-family: \'Trebuchet MS\', Trebuchet, Arial, sans-serif;
+    margin-left: 200px;
+    width: 1000px;
+    outline: 20px solid white;
+}
+
+form {
+    margin: 0 auto;
+    width: 60%;
+    padding-bottom: 50px;
+}
+
+header{
+    background: #4A4F56;
+    color: #EB7C7B;
+    font-size: 20px;
+    text-align: center;
+}
+
+form label {
+    background: #88839E;
+    padding: 6px 10px;
+    display: block;
+    color: #ffffff;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    font-size: 25px;
+
+}
+form label:nth-of-type(even) {
+    background: #7A7593;}
+form [type=checkbox]{
+    display: none;
+}
+
+form [type=checkbox]:checked + label{
+    text-decoration: line-through;
+}
+form label:hover {
+    border-color: white;
+    background: #5F5A78;
+     transition: all .1s ease-in;
+    }
+form label span {
+    font-size: 13px;
+
+}
+form label span:before{
+    content: "(";
+
+}
+form label span:after{
+    content: ")";}
+form [type=checkbox]:active + label{
+    background: coral;}
+
+
+form [type=checkbox] + label:before{
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: url(https://jetbrains.design/intellij/images/checkbox/checkboxes-macos.png);
+    background-position: 0 -4px;
+    margin-bottom: -3px;
+    margin-right: 5px;
+}
+form [type=checkbox]:checked + label:before{
+    background-position: 0 -44px ;}
+
+footer{
+    background: #4A4F56;
+    font-size: 25px;
+    color: #EB7C7B;
+    text-align: center;
+    width: 800px;
+    margin: auto;
+   height: 80px;
+}

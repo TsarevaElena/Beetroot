@@ -1,0 +1,11 @@
+.S1 div{
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+}
+body{
+    margin-left: 250px;
+}
+span img:hover {
+    background: #2a69a6;
+    }
