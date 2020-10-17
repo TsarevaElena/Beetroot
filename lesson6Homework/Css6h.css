@@ -2,7 +2,7 @@ body{
     background: #3399CC;
     text-align: center;
     margin: 0;
-border: 20px solid;
+    border: 20px #2B81AC solid;
     width: 80vw;
     height: 80vh;
     box-sizing: border-box;
@@ -71,7 +71,8 @@ section{
     color: white;
     font-size: 18px;
     padding-top: 20px;
-     margin-right: 245px;
+    margin: 0 auto;
+
 }
 span {
     opacity: 0.6;
