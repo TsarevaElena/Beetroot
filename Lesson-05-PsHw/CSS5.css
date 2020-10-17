@@ -1,0 +1,29 @@
+body{
+    background: #2A252B;
+   margin-top: 200px;
+   text-align: center;
+}
+
+hr{
+    width: 180px;
+}
+
+form {
+    margin: 0 auto;
+    width: 80%;
+    display: block;
+    color: white;
+
+}
+span {
+    color: #19C8FA;
+}
+footer {
+  color: white;
+
+}
+table{
+    width: 150px;
+   margin-left: 685px;
+    padding-bottom: 80px;
+}
