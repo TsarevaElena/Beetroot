@@ -1,0 +1,91 @@
+body{
+    background: #3399CC;
+    text-align: center;
+    margin: 0;
+border: 20px solid;
+    width: 80vw;
+    height: 80vh;
+    box-sizing: border-box;
+}
+header{
+    color: white;
+    font-size: 25px;
+    margin: 0 auto 20px;
+    width: 50%;
+    text-align: left;
+}
+section{
+   margin: 0 auto;
+    border: 2px white solid;
+}
+.weather {
+    width: 50%;
+    font-size: 0;
+    text-align: center;
+    border: 2px solid;
+
+}
+.weather div {
+    color: white;
+    height: 100px;
+    width: 25%;
+    display: inline-block;
+    font-size: 18px;
+    box-sizing: border-box;
+    border: 2px solid #ffffff;
+    padding-top: 20px;
+}
+.weather .div1 {
+    width: 50%;
+    background: #3399CC;
+
+
+}
+.weather div span{
+    display: block;
+}
+.weather .div2 {
+    background: #33CCCC;}
+.weather .div3 {
+    background: #996699;}
+.weather .div4 {
+    background: #C24747;}
+.weather .div5 {
+    background: #E2674A;}
+.weather .div6 {
+    background: #FFCC66;}
+.weather .div7 {
+    background: #99CC99;}
+.weather .div8 {
+    background: #669999;}
+.weather .div9 {
+    width: 50%;
+    background: #CC6699}
+.weather .div10 {
+    background: #339966;}
+.weather .div11 {
+    width: 100%;
+    background: #666699;
+}
+ footer{
+    color: white;
+    font-size: 18px;
+    padding-top: 20px;
+     margin-right: 245px;
+}
+span {
+    opacity: 0.6;
+}
+.weather:hover div{
+    opacity: .7;
+}
+.weather div:hover {
+    opacity: 1;}
+
+img{
+    width: 30px;
+    height: 30px;
+}
+
+.weather div:not(.guatro){
+    color: white;}
